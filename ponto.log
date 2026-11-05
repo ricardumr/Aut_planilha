@@ -1,0 +1,47 @@
+05/11/2026 09:33:04 INFO 03/11: ligou às 07:38:04 -> Entrada 07:35
+05/11/2026 09:33:04 INFO 04/11: ligou às 07:47:57 -> Entrada 07:44
+05/11/2026 09:33:04 INFO 05/11: ligou às 07:47:42 -> Entrada 07:44
+05/11/2026 09:33:04 INFO Simulação: nada foi salvo (C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\planilhas\2026\Horas Extra - novembro.xlsm)
+05/11/2026 09:33:14 INFO 03/11: ligou às 07:38:04 -> Entrada 07:35
+05/11/2026 09:33:14 INFO 04/11: ligou às 07:47:57 -> Entrada 07:44
+05/11/2026 09:33:14 INFO 05/11: ligou às 07:47:42 -> Entrada 07:44
+05/11/2026 09:33:14 INFO Planilha criada: C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\planilhas\2026\Horas Extra - novembro.xlsm
+05/11/2026 09:33:15 INFO Nada novo para lançar
+05/11/2026 09:48:09 INFO Simulação: nada foi salvo (C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\planilhas\2026\Horas Extra - novembro.xlsm)
+05/11/2026 09:56:08 INFO Simulação: nada foi salvo (C:\Users\ricardo.ribeiro\Documents\Ponto\2026\Horas Extra - novembro.xlsm)
+05/11/2026 09:56:19 INFO Simulação: nada foi salvo (C:\Users\ricardo.ribeiro\Documents\Ponto\2026\Horas Extra - novembro.xlsm)
+05/11/2026 09:57:07 INFO Vigia de saída iniciado
+05/11/2026 09:57:41 INFO Nada novo para lançar
+05/11/2026 09:57:45 INFO Pedido para desligar às 09:57:44: perguntando a saída
+05/11/2026 09:57:58 INFO 05/11: Saída 09:57 registrada
+05/11/2026 09:57:58 INFO Executando: desligar
+05/11/2026 09:58:39 INFO Nada novo para lançar
+05/11/2026 09:59:51 INFO Nada novo para lançar
+05/11/2026 10:01:22 INFO Vigia de saída iniciado
+05/11/2026 10:07:08 INFO Vigia de saída iniciado
+05/11/2026 10:10:06 INFO Vigia de saída iniciado
+05/11/2026 10:10:10 INFO Simulação: nada foi salvo (C:\Users\ricardo.ribeiro\Documents\Ponto\Horas Extra - novembro 2026.xlsm)
+05/11/2026 10:15:36 INFO Entrada de hoje já preenchida
+05/11/2026 10:15:49 INFO Vigia de saída iniciado
+05/11/2026 10:17:15 INFO Pedido para desligar às 10:17:15: perguntando a saída
+05/11/2026 10:17:22 ERROR Sem permissão para salvar a planilha
+Traceback (most recent call last):
+  File "C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\saida.py", line 186, in _perguntar
+    ponto.lancar_saida(self.quando)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\ponto.py", line 238, in lancar_saida
+    if gravar(quando.date(), COL_SAIDA, saida.time()):
+       ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\ponto.py", line 183, in gravar
+    salvar(wb, caminho)
+    ~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ricardo.ribeiro\Documents\Projetos\Aut_excel\ponto.py", line 151, in salvar
+    os.replace(temp, caminho)  # falha com PermissionError se a planilha estiver aberta no Excel
+    ~~~~~~~~~~^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\ricardo.ribeiro\\Documents\\Ponto\\Horas Extra - novembro 2026.tmp' -> 'C:\\Users\\ricardo.ribeiro\\Documents\\Ponto\\Horas Extra - novembro 2026.xlsm'
+05/11/2026 10:17:40 INFO Pedido para desligar às 10:17:40: perguntando a saída
+05/11/2026 10:17:44 INFO 05/11: Saída 10:17 registrada
+05/11/2026 10:17:44 INFO Executando: desligar
+05/11/2026 10:18:49 INFO Entrada de hoje já preenchida
+05/11/2026 10:20:55 INFO Vigia de saída iniciado
+05/11/2026 11:05:16 INFO Entrada de hoje já preenchida
